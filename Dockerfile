@@ -12,6 +12,7 @@ USER root
 RUN apk add --no-cache --update --virtual .build-deps \
         sudo build-base ruby-dev \
  && sudo gem install fluent-plugin-elasticsearch \
+ && sudo gem install fluent-plugin-kafka \
  && sudo gem install fluent-plugin-concat \
  && sudo gem install fluent-plugin-grok-parser \
  && sudo gem sources --clear-all \
