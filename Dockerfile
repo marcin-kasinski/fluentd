@@ -1,5 +1,5 @@
 #FROM fluent/fluentd:v1.5-1
-FROM fluent/fluentd-kubernetes-daemonset:v1.4-debian-kafka-1
+FROM fluent/fluentd-kubernetes-daemonset:v1.4-debian-kafka
 
 MAINTAINER Marcin Kasi�ski <marcin.kasinski@gmail.com> 
 
