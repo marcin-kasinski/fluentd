@@ -1,6 +1,5 @@
-
-FROM fluent/fluentd:v1.5-1
-
+#FROM fluent/fluentd:v1.5-1
+FROM fluent/fluentd-kubernetes-daemonset
 
 MAINTAINER Marcin Kasi�ski <marcin.kasinski@gmail.com> 
 
